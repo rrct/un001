@@ -1,0 +1,52 @@
+unit MainModule;
+
+interface
+
+uses
+  uniGUIMainModule, SysUtils, Classes;
+
+type
+  TUniMainModule = class(TUniGUIMainModule)
+    procedure UniGUIMainModuleNewComponent(AComponent: TComponent);
+    procedure UniGUIMainModuleHandleRequest(ASession: TObject;
+      var Handled: Boolean);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+function UniMainModule: TUniMainModule;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  UniGUIVars, ServerModule, uniGUIApplication;
+
+function UniMainModule: TUniMainModule;
+begin
+  Result := TUniMainModule(UniApplication.UniMainModule)
+end;
+
+procedure TUniMainModule.UniGUIMainModuleHandleRequest(ASession: TObject;
+  var Handled: Boolean);
+begin
+UniServerModule.PUT_LOG ( '<SRC>TUniMainModule' +
+                          '<EVENT>' + 'UniGUIMainModuleHandleRequest' +
+                          '<SESSION>' + ASession.ToString ) ;
+end;
+
+procedure TUniMainModule.UniGUIMainModuleNewComponent(AComponent: TComponent);
+begin
+{
+UniServerModule.PUT_LOG ( '<SRC>TUniMainModule' +
+                          '<EVENT>' + 'UniGUIMainModuleNewComponent' +
+                          '<COMPONENT>' + AComponent.Name ) ;
+}
+end;
+
+initialization
+  RegisterMainModuleClass(TUniMainModule);
+end.

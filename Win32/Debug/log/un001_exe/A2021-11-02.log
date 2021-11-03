@@ -1,0 +1,45 @@
+UN001.exe: 00003ED4: 09:11:47 [TUniServerModule]:Shutting Down Server.
+UN001.exe: 00003ED4: 09:11:47 [TUniServerModule]:Stopping HTTP Server.
+UN001.exe: 00003ED4: 09:11:48 [TUniServerModule]:HTTP Server Stopped.
+UN001.exe: 00003ED4: 09:11:48 [TUniGUISessionManager]:Terminating Session manager.
+UN001.exe: 00003ED4: 09:11:48 [TUniGUISessionManager]:Stopping Cache Eraser...
+UN001.exe: 00003ED4: 09:11:48 [TUniGUISessionManager]:Cache Eraser Stopped.
+UN001.exe: 00003ED4: 09:11:48 [TUniGUISessionManager]:Destroying Worker Threads.
+UN001.exe: 00003ED4: 09:11:48 [TUniGUISessionManager]:Session manager terminated.
+UN001.exe: 00003ED4: 09:11:48 [TUniServerModule]:Server Shutdown Completed.
+UN001.exe: 00003ED4: 09:11:48 []:<-------------------------------------------------------------->
+UN001.exe: 00003ED4: 09:11:48 [Terminated]:Exit Code: 0
+UN001.exe: 00004AA4: 16:16:52 []:>--------------------------------------------------------------<
+UN001.exe: 00004AA4: 16:16:52 [TUniServerModule]:Server First Init.
+UN001.exe: 00004AA4: 16:16:52 [TUniServerModule]:Start Path = C:\Users\ricar\Documents\Embarcadero\Studio\Projects\UN001\Win32\Debug\
+UN001.exe: 00004AA4: 16:16:52 [TUniServerModule]:Debug Mode = ON
+UN001.exe: 00004AA4: 16:16:52 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+UN001.exe: 00004AA4: 16:16:52 [TUniServerModule]:HTTP Server Started on Port: 8077
+UN001.exe: 00004AA4: 19:44:47 [TUniServerModule]:Shutting Down Server.
+UN001.exe: 00004AA4: 19:44:47 [TUniServerModule]:Stopping HTTP Server.
+UN001.exe: 00004AA4: 19:44:48 [TUniServerModule]:HTTP Server Stopped.
+UN001.exe: 00004AA4: 19:44:48 [TUniGUISessionManager]:Terminating Session manager.
+UN001.exe: 00004AA4: 19:44:48 [TUniGUISessionManager]:Stopping Cache Eraser...
+UN001.exe: 00004AA4: 19:44:48 [TUniGUISessionManager]:Cache Eraser Stopped.
+UN001.exe: 00004AA4: 19:44:48 [TUniGUISessionManager]:Destroying Worker Threads.
+UN001.exe: 00004AA4: 19:44:48 [TUniGUISessionManager]:Session manager terminated.
+UN001.exe: 00004AA4: 19:44:48 [TUniServerModule]:Server Shutdown Completed.
+UN001.exe: 00004AA4: 19:44:48 []:<-------------------------------------------------------------->
+UN001.exe: 00004AA4: 19:44:48 [Terminated]:Exit Code: 0
+UN001.exe: 000040C0: 20:04:01 []:>--------------------------------------------------------------<
+UN001.exe: 000040C0: 20:04:01 [TUniServerModule]:Server First Init.
+UN001.exe: 000040C0: 20:04:01 [TUniServerModule]:Start Path = C:\Users\ricar\Documents\Embarcadero\Studio\Projects\UN001\Win32\Debug\
+UN001.exe: 000040C0: 20:04:01 [TUniServerModule]:Debug Mode = ON
+UN001.exe: 000040C0: 20:04:01 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+UN001.exe: 000040C0: 20:04:01 [TUniServerModule]:HTTP Server Started on Port: 8077
+UN001.exe: 000040C0: 20:12:29 [TUniServerModule]:Shutting Down Server.
+UN001.exe: 000040C0: 20:12:29 [TUniServerModule]:Stopping HTTP Server.
+UN001.exe: 000040C0: 20:12:29 [TUniServerModule]:HTTP Server Stopped.
+UN001.exe: 000040C0: 20:12:29 [TUniGUISessionManager]:Terminating Session manager.
+UN001.exe: 000040C0: 20:12:29 [TUniGUISessionManager]:Stopping Cache Eraser...
+UN001.exe: 000040C0: 20:12:29 [TUniGUISessionManager]:Cache Eraser Stopped.
+UN001.exe: 000040C0: 20:12:29 [TUniGUISessionManager]:Destroying Worker Threads.
+UN001.exe: 000040C0: 20:12:29 [TUniGUISessionManager]:Session manager terminated.
+UN001.exe: 000040C0: 20:12:29 [TUniServerModule]:Server Shutdown Completed.
+UN001.exe: 000040C0: 20:12:29 []:<-------------------------------------------------------------->
+UN001.exe: 000040C0: 20:12:29 [Terminated]:Exit Code: 0

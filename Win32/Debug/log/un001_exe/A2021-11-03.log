@@ -1,0 +1,73 @@
+UN001.exe: 00002BB4: 08:40:27 []:>--------------------------------------------------------------<
+UN001.exe: 00002BB4: 08:40:27 [TUniServerModule]:Server First Init.
+UN001.exe: 00002BB4: 08:40:27 [TUniServerModule]:Start Path = C:\Users\ricar\Documents\Embarcadero\Studio\Projects\UN001\Win32\Debug\
+UN001.exe: 00002BB4: 08:40:27 [TUniServerModule]:Debug Mode = ON
+UN001.exe: 00002BB4: 08:40:27 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+UN001.exe: 00002BB4: 08:40:27 [TUniServerModule]:HTTP Server Started on Port: 8077
+UN001.exe: 00002BB4: 08:43:22 [TUniServerModule]:Shutting Down Server.
+UN001.exe: 00002BB4: 08:43:22 [TUniServerModule]:Stopping HTTP Server.
+UN001.exe: 00002BB4: 08:43:22 [TUniServerModule]:HTTP Server Stopped.
+UN001.exe: 00002BB4: 08:43:22 [TUniGUISessionManager]:Terminating Session manager.
+UN001.exe: 00002BB4: 08:43:22 [TUniGUISessionManager]:Stopping Cache Eraser...
+UN001.exe: 00002BB4: 08:43:22 [TUniGUISessionManager]:Cache Eraser Stopped.
+UN001.exe: 00002BB4: 08:43:22 [TUniGUISessionManager]:Destroying Worker Threads.
+UN001.exe: 00002BB4: 08:43:22 [TUniGUISessionManager]:Session manager terminated.
+UN001.exe: 00002BB4: 08:43:22 [TUniServerModule]:Server Shutdown Completed.
+UN001.exe: 00002BB4: 08:43:22 []:<-------------------------------------------------------------->
+UN001.exe: 00002BB4: 08:43:22 [Terminated]:Exit Code: 0
+UN001.exe: 00003AF8: 08:43:26 []:>--------------------------------------------------------------<
+UN001.exe: 00003AF8: 08:43:26 [TUniServerModule]:Server First Init.
+UN001.exe: 00003AF8: 08:43:26 [TUniServerModule]:Start Path = C:\Users\ricar\Documents\Embarcadero\Studio\Projects\UN001\Win32\Debug\
+UN001.exe: 00003AF8: 08:43:26 [TUniServerModule]:Debug Mode = ON
+UN001.exe: 00003AF8: 08:43:26 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+UN001.exe: 00003AF8: 08:43:26 [TUniServerModule]:HTTP Server Started on Port: 8077
+UN001.exe: 00003AF8: 09:40:34 [TUniServerModule]:Shutting Down Server.
+UN001.exe: 00003AF8: 09:40:34 [TUniServerModule]:Stopping HTTP Server.
+UN001.exe: 00003AF8: 09:40:34 [TUniServerModule]:HTTP Server Stopped.
+UN001.exe: 00003AF8: 09:40:34 [TUniGUISessionManager]:Terminating Session manager.
+UN001.exe: 00003AF8: 09:40:34 [TUniGUISessionManager]:Stopping Cache Eraser...
+UN001.exe: 00003AF8: 09:40:34 [TUniGUISessionManager]:Cache Eraser Stopped.
+UN001.exe: 00003AF8: 09:40:35 [TUniGUISessionManager]:Destroying Worker Threads.
+UN001.exe: 00003AF8: 09:40:35 [TUniGUISessionManager]:Session manager terminated.
+UN001.exe: 00003AF8: 09:40:35 [TUniServerModule]:Server Shutdown Completed.
+UN001.exe: 00003AF8: 09:40:35 []:<-------------------------------------------------------------->
+UN001.exe: 00003AF8: 09:40:35 [Terminated]:Exit Code: 0
+UN001.exe: 00003BB4: 09:47:20 []:>--------------------------------------------------------------<
+UN001.exe: 00003BB4: 09:47:20 [TUniServerModule]:Server First Init.
+UN001.exe: 00003BB4: 09:47:20 [TUniServerModule]:Start Path = C:\Users\ricar\Documents\Embarcadero\Studio\Projects\UN001\Win32\Debug\
+UN001.exe: 00003BB4: 09:47:20 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+UN001.exe: 00003BB4: 09:47:20 [TUniServerModule]:HTTP Server Started on Port: 8077
+UN001.exe: 000017FC: 09:50:06 [HandleFileRequest[127.0.0.1]]:File not found: C:\Users\ricar\Documents\Embarcadero\Studio\Projects\UN001\Win32\Debug\css\styles_BAD.css
+UN001.exe: 000046F0: 09:50:06 [HandleFileRequest[127.0.0.1]]:File not found: C:\Users\ricar\Documents\Embarcadero\Studio\Projects\UN001\Win32\Debug\css\styles_BAD.css
+UN001.exe: 00003BB4: 09:50:38 [TUniServerModule]:Shutting Down Server.
+UN001.exe: 00003BB4: 09:50:38 [TUniServerModule]:Stopping HTTP Server.
+UN001.exe: 00003BB4: 09:50:39 [TUniServerModule]:HTTP Server Stopped.
+UN001.exe: 00003BB4: 09:50:39 [TUniGUISessionManager]:Terminating Session manager.
+UN001.exe: 00003BB4: 09:50:39 [TUniGUISessionManager]:Stopping Cache Eraser...
+UN001.exe: 00003BB4: 09:50:39 [TUniGUISessionManager]:Cache Eraser Stopped.
+UN001.exe: 00003BB4: 09:50:39 [TUniGUISessionManager]:Destroying Worker Threads.
+UN001.exe: 00003BB4: 09:50:39 [TUniGUISessionManager]:Session manager terminated.
+UN001.exe: 00003BB4: 09:50:39 [TUniServerModule]:Server Shutdown Completed.
+UN001.exe: 00003BB4: 09:50:39 []:<-------------------------------------------------------------->
+UN001.exe: 00003BB4: 09:50:39 [Terminated]:Exit Code: 0
+UN001.exe: 00001EC0: 09:52:02 []:>--------------------------------------------------------------<
+UN001.exe: 00001EC0: 09:52:02 [TUniServerModule]:Server First Init.
+UN001.exe: 00001EC0: 09:52:02 [TUniServerModule]:Start Path = C:\Users\ricar\Documents\Embarcadero\Studio\Projects\UN001\Win32\Debug\
+UN001.exe: 00001EC0: 09:52:02 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+UN001.exe: 00001EC0: 09:52:02 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+UN001.exe: 00001EC0: 09:52:02 [TUniServerModule]:HTTP Server Started on Port: 8077
+UN001.exe: 00000944: 09:52:21 [HandleFileRequest[127.0.0.1]]:File not found: C:\Users\ricar\Documents\Embarcadero\Studio\Projects\UN001\Win32\Debug\css\styles_BAD.css
+UN001.exe: 00005198: 09:52:21 [HandleFileRequest[127.0.0.1]]:File not found: C:\Users\ricar\Documents\Embarcadero\Studio\Projects\UN001\Win32\Debug\css\styles_BAD.css
+UN001.exe: 00004214: 09:52:32 [HandleFileRequest[127.0.0.1]]:File not found: C:\Users\ricar\Documents\Embarcadero\Studio\Projects\UN001\Win32\Debug\css\styles_BAD.css
+UN001.exe: 000004D0: 09:52:32 [HandleFileRequest[127.0.0.1]]:File not found: C:\Users\ricar\Documents\Embarcadero\Studio\Projects\UN001\Win32\Debug\css\styles_BAD.css
+UN001.exe: 00001EC0: 09:52:40 [TUniServerModule]:Shutting Down Server.
+UN001.exe: 00001EC0: 09:52:40 [TUniServerModule]:Stopping HTTP Server.
+UN001.exe: 00001EC0: 09:52:41 [TUniServerModule]:HTTP Server Stopped.
+UN001.exe: 00001EC0: 09:52:41 [TUniGUISessionManager]:Terminating Session manager.
+UN001.exe: 00001EC0: 09:52:41 [TUniGUISessionManager]:Stopping Cache Eraser...
+UN001.exe: 00001EC0: 09:52:41 [TUniGUISessionManager]:Cache Eraser Stopped.
+UN001.exe: 00001EC0: 09:52:41 [TUniGUISessionManager]:Destroying Worker Threads.
+UN001.exe: 00001EC0: 09:52:41 [TUniGUISessionManager]:Session manager terminated.
+UN001.exe: 00001EC0: 09:52:42 [TUniServerModule]:Server Shutdown Completed.
+UN001.exe: 00001EC0: 09:52:42 []:<-------------------------------------------------------------->
+UN001.exe: 00001EC0: 09:52:42 [Terminated]:Exit Code: 0

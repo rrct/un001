@@ -1,0 +1,4 @@
+UN001.exe: 00002074: 01:29:21 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: Eq4NsJZagH1093BCF7A ) : Addr: $007E8C72
+UN001.exe: 00001630: 18:21:03 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: OYIDiefacP1093C2E1D ) : Addr: $007E8C72
+UN001.exe: 00001630: 18:21:03 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: OYIDiefacP1093C2E1D ) : Addr: $007E8C72
+UN001.exe: 00003428: 18:21:07 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] MySQL server has gone away : Addr: $00878CB0
