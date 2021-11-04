@@ -1,0 +1,71 @@
+unit LoginM;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  Controls, Forms, uniGUITypes, uniGUIAbstractClasses,
+  uniGUIClasses, uniGUImClasses, uniGUIRegClasses, uniGUIForm, uniGUImForm, uniGUImJSForm,
+  uniGUIBaseClasses, uniButton, unimButton, uniImage, unimImage, unimPanel,
+  uniEdit, unimEdit, uniLabel, unimLabel, Vcl.Imaging.pngimage;
+
+type
+  TUnimLoginForm2 = class(TUnimLoginForm)
+    UnimPanel1: TUnimPanel;
+    UnimImage1: TUnimImage;
+    UnimPanel2: TUnimPanel;
+    UnimLabel1: TUnimLabel;
+    ED_SENHA: TUnimEdit;
+    UnimLabel2: TUnimLabel;
+    ED_USUARIO: TUnimEdit;
+    UnimPanel3: TUnimPanel;
+    BOT_LOGIN: TUnimButton;
+    UnimLabel3: TUnimLabel;
+    UnimLabel4: TUnimLabel;
+    procedure BOT_LOGINClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  Procedure VALIDAR_BOTAO_LOGIN ;
+  end;
+
+function UnimLoginForm2: TUnimLoginForm2;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  uniGUIVars, MainModule, uniGUIApplication, ServerModule;
+
+function UnimLoginForm2: TUnimLoginForm2;
+begin
+  Result := TUnimLoginForm2(UniMainModule.GetFormInstance(TUnimLoginForm2));
+end;
+
+procedure TUnimLoginForm2.BOT_LOGINClick(Sender: TObject);
+begin
+If UniServerModule.EXECUTAR_LOGIN ( ED_USUARIO.Text, ED_SENHA.Text ) Then Begin
+    ModalResult := mrOk ;
+End Else Begin
+   ShowMessage ( 'Dados inválidos para autenticação' ) ;
+End ;
+End ;
+
+procedure TUnimLoginForm2.VALIDAR_BOTAO_LOGIN;
+begin
+BOT_LOGIN.Enabled := ( Length ( Trim ( ED_USUARIO.Text ) ) >= 3 ) AND
+                     ( Length ( Trim ( ED_SENHA.Text ) ) >= 3 ) ;
+If BOT_LOGIN.Enabled Then Begin
+   UniServerModule.EXEC_JS (
+       'globais.usuario.nome = document.getElementsByName("O2B")[0].value ;' +
+   //    'globais.usuario.senha = document.getElementsByName("O27")[0].value ;' +
+       'console.log ( "globao_bot_login_ok", globais.usuario ) ;' ) ;
+End ;
+end;
+
+initialization
+  RegisterAppFormClass(TUnimLoginForm2);
+
+end.

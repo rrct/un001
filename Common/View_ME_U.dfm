@@ -1,0 +1,46 @@
+object View_ME: TView_ME
+  Left = 0
+  Top = 0
+  Caption = 'Visualiza'#231#227'o'
+  ClientHeight = 571
+  ClientWidth = 898
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object ME: TMemo
+    Left = 72
+    Top = 92
+    Width = 341
+    Height = 257
+    ParentCustomHint = False
+    BiDiMode = bdLeftToRight
+    Ctl3D = True
+    DoubleBuffered = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Fixedsys'
+    Font.Style = []
+    Lines.Strings = (
+      'ME')
+    ParentBiDiMode = False
+    ParentCtl3D = False
+    ParentDoubleBuffered = False
+    ParentFont = False
+    ParentShowHint = False
+    ScrollBars = ssBoth
+    ShowHint = False
+    TabOrder = 0
+    WordWrap = False
+    StyleElements = []
+  end
+end

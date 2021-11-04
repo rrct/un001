@@ -1,0 +1,20 @@
+object FRM_USUARIOS: TFRM_USUARIOS
+  Left = 0
+  Top = 0
+  ClientHeight = 493
+  ClientWidth = 802
+  Caption = 'FRM_USUARIOS'
+  OldCreateOrder = False
+  MonitoredKeys.Keys = <>
+  PixelsPerInch = 96
+  TextHeight = 13
+  object UniDBGrid1: TUniDBGrid
+    Left = 52
+    Top = 40
+    Width = 637
+    Height = 409
+    Hint = ''
+    LoadMask.Message = 'Loading data...'
+    TabOrder = 0
+  end
+end

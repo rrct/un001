@@ -1,0 +1,33 @@
+unit Usuarios;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  Controls, Forms, uniGUITypes, uniGUIAbstractClasses,
+  uniGUIClasses, uniGUIForm, uniGUIBaseClasses, uniBasicGrid, uniDBGrid;
+
+type
+  TFRM_USUARIOS = class(TUniForm)
+    UniDBGrid1: TUniDBGrid;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+function FRM_USUARIOS: TFRM_USUARIOS;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  MainModule, uniGUIApplication;
+
+function FRM_USUARIOS: TFRM_USUARIOS;
+begin
+  Result := TFRM_USUARIOS(UniMainModule.GetFormInstance(TFRM_USUARIOS));
+end;
+
+end.

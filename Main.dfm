@@ -65,7 +65,6 @@ object MainForm: TMainForm
           TabOrder = 0
           ParentColor = False
           Color = 12615935
-          ExplicitLeft = 2
         end
       end
       object UniTabSheet2: TUniTabSheet
@@ -91,10 +90,10 @@ object MainForm: TMainForm
     object UniLabel3: TUniLabel
       Left = 9
       Top = 11
-      Width = 166
+      Width = 173
       Height = 23
       Hint = ''
-      Caption = 'ATS Tecnologia'
+      Caption = 'ATS Tecnologia.'
       ParentFont = False
       Font.Charset = ANSI_CHARSET
       Font.Height = -19

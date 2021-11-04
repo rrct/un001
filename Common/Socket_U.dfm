@@ -1,0 +1,49 @@
+object Socket: TSocket
+  Left = 0
+  Top = 0
+  Caption = 'Socket'
+  ClientHeight = 409
+  ClientWidth = 645
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Servidor: TServerSocket
+    Active = False
+    Port = 0
+    ServerType = stNonBlocking
+    OnListen = ServidorListen
+    OnAccept = ServidorAccept
+    OnClientConnect = ServidorClientConnect
+    OnClientDisconnect = ServidorClientDisconnect
+    OnClientRead = ServidorClientRead
+    OnClientError = ServidorClientError
+    Left = 104
+    Top = 108
+  end
+  object Cliente: TClientSocket
+    Active = False
+    ClientType = ctNonBlocking
+    Port = 0
+    OnConnect = ClienteConnect
+    OnRead = ClienteRead
+    OnError = ClienteError
+    Left = 256
+    Top = 108
+  end
+  object Cliente_Log: TClientSocket
+    Active = False
+    ClientType = ctNonBlocking
+    Port = 0
+    OnConnect = Cliente_LogConnect
+    OnRead = Cliente_LogRead
+    OnError = Cliente_LogError
+    Left = 400
+    Top = 108
+  end
+end
